@@ -1,0 +1,493 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Construction HTML-5 Template</title>
+  <meta name="description" content>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.html">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/gijgo.css">
+  <link rel="stylesheet" href="assets/css/slicknav.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/css/themify-icons.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script>
+    nonce = "ceb69cf6-6519-4888-b5b3-4bdde2ef8c92" > (function (w, d) { !function (dp, dq, dr, ds) { dp[dr] = dp[dr] || {}; dp[dr].executed = []; dp.zaraz = { deferred: [], listeners: [] }; dp.zaraz.q = []; dp.zaraz._f = function (dt) { return async function () { var du = Array.prototype.slice.call(arguments); dp.zaraz.q.push({ m: dt, a: du }) } }; for (const dv of ["track", "set", "debug"]) dp.zaraz[dv] = dp.zaraz._f(dv); dp.zaraz.init = () => { var dw = dq.getElementsByTagName(ds)[0], dx = dq.createElement(ds), dy = dq.getElementsByTagName("title")[0]; dy && (dp[dr].t = dq.getElementsByTagName("title")[0].text); dp[dr].x = Math.random(); dp[dr].w = dp.screen.width; dp[dr].h = dp.screen.height; dp[dr].j = dp.innerHeight; dp[dr].e = dp.innerWidth; dp[dr].l = dp.location.href; dp[dr].r = dq.referrer; dp[dr].k = dp.screen.colorDepth; dp[dr].n = dq.characterSet; dp[dr].o = (new Date).getTimezoneOffset(); if (dp.dataLayer) for (const dC of Object.entries(Object.entries(dataLayer).reduce(((dD, dE) => ({ ...dD[1], ...dE[1] })), {}))) zaraz.set(dC[0], dC[1], { scope: "page" }); dp[dr].q = []; for (; dp.zaraz.q.length;) { const dF = dp.zaraz.q.shift(); dp[dr].q.push(dF) } dx.defer = !0; for (const dG of [localStorage, sessionStorage]) Object.keys(dG || {}).filter((dI => dI.startsWith("_zaraz_"))).forEach((dH => { try { dp[dr]["z_" + dH.slice(7)] = JSON.parse(dG.getItem(dH)) } catch { dp[dr]["z_" + dH.slice(7)] = dG.getItem(dH) } })); dx.referrerPolicy = "origin"; dx.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(dp[dr]))); dw.parentNode.insertBefore(dx, dw) };["complete", "interactive"].includes(dq.readyState) ? zaraz.init() : dp.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+<body>
+
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="assets/img/logo/loder-logo.png" alt>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-area header-transparent">
+      <div class="main-header ">
+        <div class="header-top d-none d-lg-block">
+          <div class="container-fluid">
+            <div class="col-xl-12">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="header-info-left">
+                  <ul>
+                    <li>infobuildworks@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="header-info-right">
+                  <ul class="header-social">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom  header-sticky">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+
+              <div class="col-xl-2 col-lg-2 col-md-1">
+                <div class="logo">
+
+                  <a href="index.html" class="big_logo"><img src="assets/img/logo/logo2.png" alt></a>
+
+                  <a href="index.html" class="small-logo"><img src="assets/img/logo/loder-logo.png" alt></a>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-8 col-md-8">
+
+                <div class="main-menu f-right d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="index.html" >Home</a></li>
+                      <li><a href="about.html" class="active">About</a></li>
+                      <li><a href="project.html">Projects</a></li>
+                      <!-- <li><a href="#">Projects</a>
+                        <ul class="submenu">
+                          <li><a href="project.html">project</a></li>
+                          <li><a href="project_details1.html">project details 1</a></li>
+                          <li><a href="project_details2.html">project details 2</a></li>
+                          <li><a href="project_details3.html">project details 3</a></li>
+                        </ul>
+                      </li> -->
+
+                      <li><a href="#">Services</a>
+                        <ul class="submenu">
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="services_details.html">Services details </a></li>
+                        </ul>
+                      </li>
+                      <li><a href="Gallery.html">Gallery</a>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-3">
+                <div class="header-right-btn f-right d-none d-lg-block">
+                  <a href="contact.html" class="btn">Contact Now</a>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+
+    <div class="slider-area ">
+      <div class="single-slider hero-overly slider-height2 d-flex align-items-center"
+        data-background="assets/img/background/about.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="hero-cap pt-100">
+                <h2>About us</h2>
+                <nav aria-label="breadcrumb ">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="about.html">About Us</a></li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="support-company-area fix pt-10 section-padding30">
+      <div class="support-wrapper align-items-end">
+        <div class="left-content">
+
+          <div class="section-tittle section-tittle2 mb-55">
+            <div class="front-text">
+              <h2 class>ABOUT US</h2>
+            </div>
+            <span class="back-text">About us</span>
+          </div>
+          <div class="support-caption">
+            <p class="pera-top">We are an Interior
+              Designer and Manufacturer for FF&E (Furniture, Fixture &
+              Equipment) and has various Architects and Corporate
+              Organizations in Karachi & Islamabad.</p>
+            <p class="pera-top">
+              We are also committed to perform the best level services and
+              completes the projects in budget within desired Lead-time. Our
+              services and business model provide its Clients to procure their
+              needs for the Service Industry in very competitive budget with best
+              pricing and on-time projects completion. Our Team builds strong
+              relationship with its Clients. We have a team of highly experienced
+              & professional individuals to serve you with the best of their services.
+            </p>
+            <a href="contact.html" class="btn red-btn2">Contact</a>
+          </div>
+        </div>
+        <div class="right-content">
+
+          <div class="right-img">
+            <img src="assets/img/gallery/safe_in.png" alt>
+          </div>
+          <div class="support-img-cap text-center">
+            <span>1994</span>
+            <p>Since</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="testimonial-area t-bg testimonial-padding">
+      <div class="container ">
+        <div class="row">
+          <div class="col-xl-12">
+
+            <div class="section-tittle section-tittle6 mb-50">
+              <div class="front-text">
+                <h2 class>ABOUT US</h2>
+              </div>
+              <span class="back-text">BUSINESS</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-10 col-lg-11 col-md-10 offset-xl-1">
+            <div class="h1-testimonial-active">
+
+              <div class="single-testimonial">
+
+                <div class="testimonial-caption ">
+                  <div class="testimonial-top-cap">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86px"
+                      height="63px">
+                      <path fill-rule="evenodd" stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0"
+                        fill="rgb(0, 0, 0)"
+                        d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z" />
+                    </svg>
+                    <p>We are also committed to perform the best level services and
+                      completes the projects in budget within desired Lead-time. Our
+                      services and business model provide its Clients to procure their
+                      needs for the Service Industry in very competitive budget with best
+                      pricing and on-time projects completion. Our Team builds strong
+                      relationship with its Clients. We have a team of highly experienced
+                      & professional individuals to serve you with the best of their services.</p>
+                  </div>
+
+                  <div class="testimonial-founder d-flex align-items-center">
+                    <div class="founder-text">
+                      <span>infobuildworks@gmail.com</span>
+                      <p>Lane 12, DHA Phase VI</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="single-testimonial">
+
+                <div class="testimonial-caption ">
+                  <div class="testimonial-top-cap">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86px"
+                      height="63px">
+                      <path fill-rule="evenodd" stroke-width="1px" stroke="rgb(255, 95, 19)" fill-opacity="0"
+                        fill="rgb(0, 0, 0)"
+                        d="M82.623,59.861 L48.661,59.861 L48.661,25.988 L59.982,3.406 L76.963,3.406 L65.642,25.988 L82.623,25.988 L82.623,59.861 ZM3.377,25.988 L14.698,3.406 L31.679,3.406 L20.358,25.988 L37.340,25.988 L37.340,59.861 L3.377,59.861 L3.377,25.988 Z" />
+                    </svg>
+                    <p>We proudly introduces ourselves a trustworthy solution to all Service
+                      Industry since 2015 and has been highly professional source of
+                      providing complete services, equipment and accessories supplies
+                      for entire Industry. BUILDWORKS offers “Pin To Plane” Solution for
+                      entire Construction, Project Management and Interior Design
+                      Industry & ensures outstanding services in supplying the finest
+                      quality at the most competitive rates to its clients. We are an Interior
+                      Designer and Manufacturer for FF&E (Furniture, Fixture &
+                      Equipment) and has various Architects and Corporate
+                      Organizations in Karachi & Islamabad.</p>
+                  </div>
+
+                  <div class="testimonial-founder d-flex align-items-center">
+                    <div class="founder-text">
+                      <span>infobuildworks@gmail.com</span>
+                      <p>Lane 12, DHA Phase VI</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team-area section-padding30">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+
+            <div class="section-tittle section-tittle5 mb-50">
+              <div class="front-text">
+                <h2 class>Our team</h2>
+              </div>
+              <span class="back-text">exparts</span>
+              <p>We are equipped with best Architectural, structural, interior design, Civil and MEP resources.
+                We at BuildWorks are also committed to perform the best level services and completes the projects in budget within desired Lead-time.
+                Our services and business model provide its Clients to procure their needs for the Service Industry in very competitive budget with best pricing and on-time projects completion.
+                Our Team builds strong relationship with its Clients. We have a team of highly experienced & professional individuals to serve you with the best of their services</p>
+            </div>
+            
+          </div>
+        </div>
+        <div>
+          <table class="table table-bordered" style="background-color: #c9c7c7; font-size: 18px;">
+            <thead>
+              <tr>
+                <th scope="col">Business</th>
+                <th scope="col">Architectural and Desig</th>
+                <th scope="col">Execution</th>
+                <th scope="col">Finance & Taxation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>New Business Development</td>
+                <td>Planning</td>
+                <td>Civil, MEP & Interior Design execution team</td>
+                <td>Finance and Taxation team</td>
+              </tr>
+              <tr>
+                <td>Customer Relationship Management</td>
+                <td>Architectural design and Interior Design team</td>
+                <td>Metal Fabrication</td>
+                <td>Finance and Taxation team</td>
+              </tr>
+              <tr>
+                <td>After Sales Support </td>
+                <td>Quantity and Site Surveyors</td>
+                <td>Furniture fabrication and manufacturing</td>
+                <td>Finance and Taxation team</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="assets/img/gallery/img2.JPG" alt="" style="width: 400px; margin-bottom: 50px;">
+        </div>
+        <div class="col-lg-7" style="text-align: left; margin-bottom: 50px;">
+          <h1 style="font-weight: bold;">CORE VALUES</h1> 
+          <h5>INTEGRITY | WE ARE TRUE TO OUR WORDS</h5>
+          <p> Integrity is non-negotiable. DCC’s employees’ is their bond. We live up to the highest standards of fairness and ethical behaviour.</p>
+          
+          <h5>TRUST & RESPECT | WE ARE OPEN AND TRANSPARENT</h5>
+          <p>We at DCC earn and instill trust by being accountable at every level of our performed work and in all our interactions’.</p>
+          
+          <h5>TEAM WORK | WE ARE ONE TEAM ENTITY</h5>
+          <p>
+            Our unified culture and shared knowledge and experience help us achieve our goals. Every personnel at DCC have something to contribute to DCC’s construction teams and this belief is the key to our mutual success.
+          </p>
+          
+          <h5>INNOVATION | WE THINK OUT OF THE BOX</h5>
+          <p>
+            We strive to find the best solutions and dare to do things differently and safely.
+          </p>
+          
+          
+          <h5>EXCELLENCE | WE GIVE ATTENTION TO DETAILS</h5>
+          <p>Attention to detail is what makes a great project into and exceptional project. We seek and are committed to achieving outstanding performances and exceptional outcomes.</p>
+          
+          <h5>PASSION | WE LOVE WHAT WE DO</h5>
+          <p>DCC’s employees love what they do. They are passionate towards their line of work and eager to take the lead and lead by example.</p>
+          
+        </div>
+      </div>
+
+    </div> 
+
+  </main>
+  <footer>
+
+    <div class="footer-main">
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row  justify-content-between">
+            <div class="col-lg-4 col-md-4 col-sm-8">
+              <div class="single-footer-caption mb-30">
+
+                <div class="footer-logo">
+                  <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt></a>
+                </div>
+                <div class="footer-tittle">
+                  <div class="footer-pera">
+                    <p class="info1">Corporate Office: Office # F-6, 1st Floor, Zain Mobile Mall, Tariq Road, Opposite
+                      Bank Al-Falah, Karachi </p>
+                    <p class="info1">Design Office: Basement Floor 30-C/II, Nishat Commercial Lane 12, DHA Phase VI,
+                      Karachi </p>
+                    <p class="info1">Workshop: Unit 3, B1 Area, Liaqutabad, Near Gujjar Nihari, Karachi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Quick Links</h4>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Contact</h4>
+                  <div class="footer-pera">
+                    <p class="info1">infobuildworks@gmail.com</p>
+                    <p class="info1">www.buildworks.pk</p>
+
+                  </div>
+                  <ul>
+                    <li><a href="#">03000 287728; 0336 2771837</a></li>
+                    <li><a href="#">0340 2041990; 0321 2471689</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-8">
+              <div class="single-footer-caption mb-50">
+
+                <div class="footer-form">
+                  <div id="mc_embed_signup">
+                    <form target="_blank"
+                      action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                      method="get" class="subscribe_form relative mail_part" novalidate="true">
+                      <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address "
+                        class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = ' Email Address '">
+                      <div class="form-icon">
+                        <button type="submit" name="submit" id="newsletter-submit"
+                          class="email_icon newsletter-submit button-contactForm">
+                          SIGN UP
+                        </button>
+                      </div>
+                      <div class="mt-10 info"></div>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="map-footer">
+                  <img src="assets/img/gallery/map-footer.png" alt>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/jquery.slicknav.min.js"></script>
+
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+
+  <script src="assets/js/gijgo.min.js"></script>
+
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/animated.headline.js"></script>
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+
+  <script src="assets/js/jquery.scrollUp.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/jquery.sticky.js"></script>
+
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+
+  <script src="assets/js/contact.js"></script>
+  <script src="assets/js/jquery.form.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/mail-script.js"></script>
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+    integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+    data-cf-beacon='{"rayId":"838eeda8eda121ec","b":1,"version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

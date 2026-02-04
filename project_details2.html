@@ -1,0 +1,406 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Construction HTML-5 Template</title>
+  <meta name="description" content>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="site.html">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/gijgo.css">
+  <link rel="stylesheet" href="assets/css/slicknav.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/css/themify-icons.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <script>
+    nonce="e92b046e-d62e-4b9c-aa51-9371ea4bce98">(function (w, d) { !function (dp, dq, dr, ds) { dp[dr] = dp[dr] || {}; dp[dr].executed = []; dp.zaraz = { deferred: [], listeners: [] }; dp.zaraz.q = []; dp.zaraz._f = function (dt) { return async function () { var du = Array.prototype.slice.call(arguments); dp.zaraz.q.push({ m: dt, a: du }) } }; for (const dv of ["track", "set", "debug"]) dp.zaraz[dv] = dp.zaraz._f(dv); dp.zaraz.init = () => { var dw = dq.getElementsByTagName(ds)[0], dx = dq.createElement(ds), dy = dq.getElementsByTagName("title")[0]; dy && (dp[dr].t = dq.getElementsByTagName("title")[0].text); dp[dr].x = Math.random(); dp[dr].w = dp.screen.width; dp[dr].h = dp.screen.height; dp[dr].j = dp.innerHeight; dp[dr].e = dp.innerWidth; dp[dr].l = dp.location.href; dp[dr].r = dq.referrer; dp[dr].k = dp.screen.colorDepth; dp[dr].n = dq.characterSet; dp[dr].o = (new Date).getTimezoneOffset(); if (dp.dataLayer) for (const dC of Object.entries(Object.entries(dataLayer).reduce(((dD, dE) => ({ ...dD[1], ...dE[1] })), {}))) zaraz.set(dC[0], dC[1], { scope: "page" }); dp[dr].q = []; for (; dp.zaraz.q.length;) { const dF = dp.zaraz.q.shift(); dp[dr].q.push(dF) } dx.defer = !0; for (const dG of [localStorage, sessionStorage]) Object.keys(dG || {}).filter((dI => dI.startsWith("_zaraz_"))).forEach((dH => { try { dp[dr]["z_" + dH.slice(7)] = JSON.parse(dG.getItem(dH)) } catch { dp[dr]["z_" + dH.slice(7)] = dG.getItem(dH) } })); dx.referrerPolicy = "origin"; dx.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(dp[dr]))); dw.parentNode.insertBefore(dx, dw) };["complete", "interactive"].includes(dq.readyState) ? zaraz.init() : dp.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+</head>
+
+<body>
+
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+          <img src="assets/img/logo/loder-logo.png" alt>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+
+    <div class="header-area header-transparent">
+      <div class="main-header ">
+        <div class="header-top d-none d-lg-block">
+          <div class="container-fluid">
+            <div class="col-xl-12">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="header-info-left">
+                  <ul>
+                    <li>infobuildworks@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="header-info-right">
+                  <ul class="header-social">
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom  header-sticky">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+
+              <div class="col-xl-2 col-lg-2 col-md-1">
+                <div class="logo">
+
+                  <a href="index.html" class="big-logo"><img src="assets/img/logo/logo2.png" alt></a>
+
+                  <a href="index.html" class="small-logo"><img src="assets/img/logo/loder-logo.png" alt></a>
+                </div>
+              </div>
+              <div class="col-xl-8 col-lg-8 col-md-8">
+
+                <div class="main-menu f-right d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="project.html">Projects</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="Gallery.html">Gallery</a>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-3">
+                <div class="header-right-btn f-right d-none d-lg-block">
+                  <a href="contact.html" class="btn">Contact Now</a>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <div class="slider-area ">
+      <div class="single-slider hero-overly slider-height2 d-flex align-items-center"
+        data-background="assets/img/background/about.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="hero-cap pt-100">
+                <h2>projects Details</h2>
+                <nav aria-label="breadcrumb ">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="project_details2.html">projects Details</a></li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services-details-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="single-services section-padding2">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="assets/img/gallery/project2/img1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/gallery/project2/img10.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/gallery/project2/img3.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="assets/img/gallery/project2/img12.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <!-- <span class="sr-only">Previous</span> -->
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="single-services section-padding2 sec">
+              <div class="details-img details-caption mb-40">
+                <p>
+                  <span class="maintitleline"></span>
+                  <span class="pro_heading2"> ABOUT PROJECT</span>
+                </p>
+                <h2 class="pro_heading">Shop Interior Design + Built</h2>
+              </div>
+              <div class="details-caption">
+                <p>Designing a shop's interior involves aligning it with the brand's identity and values. Start with a
+                  layout that optimizes traffic flow, and pay attention to lighting, color schemes, and visual
+                  merchandising to create an appealing atmosphere. Choose materials that match the brand and offer
+                  flexibility for changes. If possible, include comfortable seating and integrate technology seamlessly.
+                  Sustainable design practices can also enhance the overall appeal, ensuring a positive and memorable
+                  shopping experience.</p>
+              </div><br>
+              <div class="elementor-widget-container">
+                <h5>Project info</h5>
+                <strong class="pro_details">Clients</strong> <em> Lucky Cement Limited</em><br>
+                <strong class="pro_details">Category</strong> <em> Construction Business</em><br>
+                <strong class="pro_details">location</strong> <em> 365 SFT</em><br>
+                <strong class="pro_details">Completed</strong> <em> August 01 2020</em>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="project-area section-padding5">
+          <div class="container">
+            <div class="project-heading mb-35">
+              <div class="row align-items-end">
+                <div class="col-lg-6">
+                  <div class="section-tittle section-tittle3">
+                    <div class="front-text">
+                      <h2 class>Gallery</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="tab-content active" id="nav-tabContent">
+                  <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="project-caption">
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-project mb-30">
+                            <div class="project-img">
+                              <img src="assets/img/gallery/project2/img9.jpg" alt>
+                            </div>
+                            <div class="project-cap">
+                              <a href="Gallery.html" class="plus-btn"><i class="ti-plus"></i></a>
+                              <h4><a href="Gallery.html">Furniture Installation</a></h4>
+    
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-project mb-30">
+                            <div class="project-img">
+                              <img src="assets/img/gallery/project2/img6.jpg" alt>
+                            </div>
+                            <div class="project-cap">
+                              <a href="Gallery.html" class="plus-btn"><i class="ti-plus"></i></a>
+                              <h4><a href="Gallery.html">Manufacturing & Design</a></h4>
+    
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-project mb-30">
+                            <div class="project-img">
+                              <img src="assets/img/gallery/project2/img8.jpg" alt>
+                            </div>
+                            <div class="project-cap">
+                              <a href="Gallery.html" class="plus-btn"><i class="ti-plus"></i></a>
+                              <h4><a href="Gallery.html">Shop Interior Design</a></h4>
+                              <!-- <h4><a href="project_details.html">Factory</a></h4> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+    <div class="footer-main">
+      <div class="footer-area footer-padding">
+        <div class="container">
+          <div class="row  justify-content-between">
+            <div class="col-lg-4 col-md-4 col-sm-8">
+              <div class="single-footer-caption mb-30">
+
+                <div class="footer-logo">
+                  <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt></a>
+                </div>
+                <div class="footer-tittle">
+                  <div class="footer-pera">
+                    <p class="info1">Corporate Office: Office # F-6, 1st Floor, Zain Mobile Mall, Tariq Road, Opposite
+                      Bank Al-Falah, Karachi </p>
+                    <p class="info1">Design Office: Basement Floor 30-C/II, Nishat Commercial Lane 12, DHA Phase VI,
+                      Karachi </p>
+                    <p class="info1">Workshop: Unit 3, B1 Area, Liaqutabad, Near Gujjar Nihari, Karachi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-5">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Quick Links</h4>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-7">
+              <div class="single-footer-caption mb-50">
+                <div class="footer-tittle">
+                  <h4>Contact</h4>
+                  <div class="footer-pera">
+                    <p class="info1">infobuildworks@gmail.com</p>
+                    <p class="info1">www.buildworks.pk</p>
+
+                  </div>
+                  <ul>
+                    <li><a href="#">03000 287728; 0336 2771837</a></li>
+                    <li><a href="#">0340 2041990; 0321 2471689</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-8">
+              <div class="single-footer-caption mb-50">
+
+                <div class="footer-form">
+                  <div id="mc_embed_signup">
+                    <form target="_blank"
+                      action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                      method="get" class="subscribe_form relative mail_part" novalidate="true">
+                      <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address "
+                        class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = ' Email Address '">
+                      <div class="form-icon">
+                        <button type="submit" name="submit" id="newsletter-submit"
+                          class="email_icon newsletter-submit button-contactForm">
+                          SIGN UP
+                        </button>
+                      </div>
+                      <div class="mt-10 info"></div>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="map-footer">
+                  <img src="assets/img/gallery/map-footer.png" alt>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/jquery.slicknav.min.js"></script>
+
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+
+  <script src="assets/js/gijgo.min.js"></script>
+
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/animated.headline.js"></script>
+  <script src="assets/js/jquery.magnific-popup.js"></script>
+
+  <script src="assets/js/jquery.scrollUp.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/jquery.sticky.js"></script>
+
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+
+  <script src="assets/js/contact.js"></script>
+  <script src="assets/js/jquery.form.js"></script>
+  <script src="assets/js/jquery.validate.min.js"></script>
+  <script src="assets/js/mail-script.js"></script>
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+  <script src="assets/js/plugins.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+    integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+    data-cf-beacon='{"rayId":"838eedb14cda21ec","b":1,"version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+    crossorigin="anonymous"></script>
+</body>
+</html>
